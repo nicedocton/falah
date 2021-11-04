@@ -1,0 +1,130 @@
+@import 'null';
+@import 'aos';
+
+body {
+	background-color: #fff;
+	color: #000;
+}
+
+._container {
+	width: 100%;
+	max-width: 1146px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.icon {
+	display: inline-block;
+	width: 24px;
+	height: 16px;
+}
+
+.icon-gb {
+	background-image: url('../assets/icons/gb-flag.jpg');
+	background-size: 24px 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.icon-ru {
+	background-image: url('../assets/icons/ru-flag.jpg');
+	background-size: 24px 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.icon-uz {
+	background-image: url('../assets/icons/uz-flag.jpg');
+	background-size: 24px 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.welcome {
+	background-color: #006933;
+	padding-top: 115px;
+	position: relative;
+	&::before {
+		content: '';
+		display: block;
+		height: 100%;
+		width: 100%;
+		background-image: url('../assets/img/decor.png');
+		background-repeat: repeat;
+		background-position: 0 0;
+		position: absolute;
+		top: 0;
+		right: calc(-50% + (1126px * 0.08));
+		z-index: 1;
+	}
+	&__container {
+		position: relative;
+		display: flex;
+		z-index: 2;
+	}
+	.welcome__row {
+		display: grid;
+		grid-template-columns: 360px 1fr;
+		gap: 120px;
+	}
+	.onMobile {
+		display: none;
+	}
+	.welcome__image {
+		width: calc(50% + (1126px * 0.08));
+		height: 585px;
+		position: absolute;
+		right: 0;
+		top: 115px;
+		z-index: 2;
+	}
+	.welcome__content {
+		padding: 42px 0 97px;
+		color: #fff;
+		min-height: 525px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.welcome__title {
+		font-size: 48px;
+		line-height: 52px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	.welcome__text {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 30px;
+		color: rgba(255, 255, 255, 0.77);
+		opacity: 0.89;
+		font-weight: 500;
+		max-width: 250px;
+	}
+}
+
+.btn {
+	display: block;
+	padding: 18px 32px;
+	background-color: #fff;
+	border: none;
+	position: relative;
+	color: #222;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+	min-width: 200px;
+	text-align: center;
+}

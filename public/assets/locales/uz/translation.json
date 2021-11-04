@@ -1,0 +1,15 @@
+{
+	"welcome": {
+		"title": "Biz blian investitsiya qiling!",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Investitsiya qiling"
+	},
+	"mainMenu": {
+        "main": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "partners": "Hamkorlarimiz",
+        "projects": "Proektlar",
+        "reports": "Habarlar",
+        "contacts": "Kontaktlar"
+    }
+}

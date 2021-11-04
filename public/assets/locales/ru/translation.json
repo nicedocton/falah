@@ -1,0 +1,15 @@
+{
+	"welcome": {
+		"title": "Мы задаём стандарты в отрасли",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Инвестировать"
+	},
+	"mainMenu": {
+        "main": "Главная",
+        "about": "О нас",
+        "partners": "Партнеры",
+        "projects": "Проекты",
+        "reports": "Новости",
+        "contacts": "Контакты"
+    }
+}

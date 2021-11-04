@@ -1,0 +1,15 @@
+{
+	"welcome": {
+		"title": "We set standarts in branch",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Invest"
+	},
+	"mainMenu": {
+        "main": "Homepage",
+        "about": "About us",
+        "partners": "Partners",
+        "projects": "Projects",
+        "reports": "News",
+        "contacts": "Contacts"
+    }
+}
