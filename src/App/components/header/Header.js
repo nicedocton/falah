@@ -209,7 +209,7 @@ function Header() {
 					</svg>
 				</div>
 				<nav className='header__menu menu'>
-					<ul class='menu__list'>
+					<ul className='menu__list'>
 						<li>
 							<a href='#about'>{t('mainMenu.about')}</a>
 						</li>

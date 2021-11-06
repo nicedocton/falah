@@ -1,9 +1,4 @@
 {
-	"welcome": {
-		"title": "We set standarts in branch",
-		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
-		"button": "Invest"
-	},
 	"mainMenu": {
         "main": "Homepage",
         "about": "About us",
@@ -11,5 +6,26 @@
         "projects": "Projects",
         "reports": "News",
         "contacts": "Contacts"
-    }
+    },
+	"welcome": {
+		"title": "We set standarts in branch",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Invest"
+	},
+	"about": {
+		"title": "About us",
+		"text": {
+			"0": "We represent a wide range of investment and financial services in accordance with the norms of Islam and the requirements of the legislation of the Republic of Uzbekistan. Our doors are open to all clients, regardless of religious affiliation.",
+			"1": "Today the company \"FALAH INVESTORS\" is developing in its segment, setting industry standards that our competitors are guided by.",
+			"2": "Conservative financial policy, constant portfolio growth and stable profitability of investors above bank deposits prove FALAH INVESTORS is a reliable organization that they trust and willing to work with."
+		}
+	},
+	"mission": {
+		"title": "Our mission",
+		"text": {
+			"0": "123",
+			"1": "123",
+			"2": "123"
+		}
+	}
 }

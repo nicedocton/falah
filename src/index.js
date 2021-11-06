@@ -14,7 +14,7 @@ i18n.use(initReactI18next)
 		supportedLngs: ['uz', 'ru', 'en'],
 		fallbackLng: 'en',
 		detection: {
-			order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
+			order: ['subdomain', 'path', 'cookie', 'htmlTag', 'localStorage'],
 			caches: ['cookie'],
 		},
 		backend: { loadPath: '/assets/locales/{{lng}}/translation.json' },

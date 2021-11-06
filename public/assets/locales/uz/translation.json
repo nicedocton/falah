@@ -1,9 +1,5 @@
 {
-	"welcome": {
-		"title": "Biz blian investitsiya qiling!",
-		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
-		"button": "Investitsiya qiling"
-	},
+
 	"mainMenu": {
         "main": "Bosh sahifa",
         "about": "Biz haqimizda",
@@ -11,5 +7,26 @@
         "projects": "Proektlar",
         "reports": "Habarlar",
         "contacts": "Kontaktlar"
-    }
+    },
+	"welcome": {
+		"title": "Biz blian investitsiya qiling!",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Investitsiya qiling"
+	},
+	"about": {
+		"title": "Biz haqimizda",
+		"text": {
+			"0": "Biz Islom normalari va Oʻzbekiston Respublikasi qonunchiligi talablariga qatʼiy amal qilgan holda keng turdagi investitsiya va moliyaviy xizmatlarni taqdim etamiz. Bizning eshiklarimiz diniy mansubligidan qat'i nazar, barcha mijozlar uchun ochiq. ",
+			"1": "Bugungi kunda FALAH INVESTORS o'z segmentida rivojlanib, raqobatchilarimiz rahbarlik qiladigan sanoat standartlarini belgilab bermoqda.",
+			"2": "Konservativ moliyaviy siyosat, portfelning doimiy o'sishi, investorlarning bank depozitlaridan yuqori bo'lgan barqaror rentabelligi FALAH INVESTORSning ular ishonadigan va hamkorlik qilishni xohlaydigan ishonchli tashkilot ekanligini ko'rsatadi."
+		}
+	},
+	"mission": {
+		"title": "Bizning missiya",
+		"text": {
+			"0": "123",
+			"1": "123",
+			"2": "123"
+		}
+	}
 }

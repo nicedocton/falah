@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className='footer'>
 			<div className='footer__container _container'>
-				<div class='footer__logo logo'>
+				<div className='footer__logo logo'>
 					<svg
 						width='183'
 						height='47'

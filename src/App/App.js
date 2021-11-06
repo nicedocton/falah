@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 
-import welcome from './assets/img/welcome.png';
+import welcomeBg from './assets/img/welcome.png';
+import aboutBg from './assets/img/about.jpg';
 import './scss/App.scss';
 
 function App() {
@@ -32,13 +33,37 @@ function App() {
 							</div>
 							<div className='welcome__column onMobile'>
 								<div className='welcome__image'>
-									<img src={welcome} alt='welcome' />
+									<img src={welcomeBg} alt='welcome' />
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class='welcome__image noMobile'>
-						<img src={welcome} alt='welcome' />
+					<div className='welcome__image noMobile'>
+						<img src={welcomeBg} alt='welcome' />
+					</div>
+				</section>
+				<section className='about section'>
+					<div className='about__container _container'>
+						<div className='about__content'>
+							<div className='about__text'>
+								<div className='about__title title'>
+									{t('about.title')}
+								</div>
+								<p>{t('about.text.0')}</p>
+								<p>{t('about.text.1')}</p>
+								<p>{t('about.text.2')}</p>
+							</div>
+							<div className='about__image'>
+								<img src={aboutBg} alt='' />
+							</div>
+						</div>
+					</div>
+				</section>
+				<section className='mission section'>
+					<div className='mission__container _container'>
+						<div className='mission__title title _white'>
+							{t('mission.title')}
+						</div>
 					</div>
 				</section>
 			</main>
