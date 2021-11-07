@@ -5,6 +5,9 @@ import Header from './components/header/Header';
 
 import welcomeBg from './assets/img/welcome.png';
 import aboutBg from './assets/img/about.jpg';
+import icon1 from './assets/icons/mission1.svg';
+import icon2 from './assets/icons/mission2.svg';
+import icon3 from './assets/icons/mission3.svg';
 import './scss/App.scss';
 
 function App() {
@@ -63,6 +66,35 @@ function App() {
 					<div className='mission__container _container'>
 						<div className='mission__title title _white'>
 							{t('mission.title')}
+						</div>
+						<div className='mission__row'>
+							<div className='mission__column'>
+								<div className='mission__item item-mission'>
+									<div className='item-mission__image'>
+										<img src={icon1} alt='' />
+									</div>
+									<div className='item-mission__head'>{t('mission.headText.0')}</div>
+									<div className='item-mission__text'>{t('mission.text.0')}</div>
+								</div>
+							</div>
+							<div className='mission__column'>
+								<div className='mission__item item-mission'>
+									<div className='item-mission__image'>
+										<img src={icon2} alt='' />
+									</div>
+									<div className='item-mission__head'>{t('mission.headText.1')}</div>
+									<div className='item-mission__text'>{t('mission.text.1')}</div>
+								</div>
+							</div>
+							<div className='mission__column'>
+								<div className='mission__item item-mission'>
+									<div className='item-mission__image'>
+										<img src={icon3} alt='' />
+									</div>
+									<div className='item-mission__head'>{t('mission.headText.2')}</div>
+									<div className='item-mission__text'>{t('mission.text.2')}</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
