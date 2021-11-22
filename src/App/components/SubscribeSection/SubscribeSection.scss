@@ -1,0 +1,197 @@
+.subscribe {
+	padding: 83px 0 82px;
+	background-color: #0aab59;
+	position: relative;
+	min-height: 570px;
+	&::before {
+		display: block;
+		content: '';
+		width: 50%;
+		height: 100%;
+		background-color: #01542a;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	&::after {
+		display: block;
+		content: '';
+		width: 50%;
+		height: 100%;
+		background-color: #0aab59;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	&__bg {
+		background-image: url('../../assets/img/subscribe.png');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: auto 100%;
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		right: 50%;
+		top: 0;
+	}
+	&__container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	&__content {
+		width: 50%;
+		position: relative;
+		z-index: 2;
+		color: #fff;
+		padding-left: 48px;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 39px;
+		line-height: 48px;
+		margin-bottom: 24px;
+	}
+	&__text {
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 24px;
+	}
+	&__form {
+		width: 100%;
+		max-width: 453px;
+	}
+	&__row {
+		width: 100%;
+		margin-bottom: 19px;
+	}
+	&__col {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+	}
+	&__btn {
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.16);
+		transition: all 0.3s ease-in-out 0s;
+		&:hover {
+			background-color: #01542a;
+		}
+	}
+
+	@media screen and (max-width: 991.88px) {
+		&__title {
+			font-size: 35px;
+		}
+		&__content {
+			padding-left: 0;
+			width: 400px;
+		}
+	}
+	@media screen and (max-width: 767.88px) {
+		&__container {
+			justify-content: center;
+		}
+		&__title {
+			font-size: 32px;
+		}
+	}
+	@media screen and (max-width: 480.88px) {
+		padding: 0 0 36px;
+		&::before,
+		&::after {
+			display: none;
+		}
+		&__bg {
+			position: relative;
+			width: 100%;
+			height: 294px;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			top: 0;
+			background-image: url('../../assets/img/subscribe2.png');
+			background-position: top bottom;
+			background-size: cover;
+			margin-bottom: 24px;
+		}
+		&__content {
+			width: 100%;
+			max-width: 400px;
+		}
+		&__title {
+			margin-bottom: 16px;
+		}
+		&__text {
+			font-size: 18px;
+			line-height: 22px;
+		}
+		&__col {
+			display: flex;
+			flex-direction: column;
+			gap: 19px;
+		}
+	}
+}
+
+.checkbox__label {
+	display: block;
+	padding-left: 25px;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+[type='checkbox']:not(:checked),
+[type='checkbox']:checked {
+	position: absolute;
+	left: 0;
+	opacity: 0.01;
+}
+[type='checkbox']:not(:checked) + label,
+[type='checkbox']:checked + label {
+	position: relative;
+	cursor: pointer;
+}
+
+/* checkbox aspect */
+[type='checkbox']:not(:checked) + label:before,
+[type='checkbox']:checked + label:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 2px;
+	width: 15px;
+	height: 15px;
+	border: none;
+	background: #fff;
+	border-radius: 3px;
+	transition: all 0.275s;
+}
+
+/* checked mark aspect */
+[type='checkbox']:not(:checked) + label:after,
+[type='checkbox']:checked + label:after {
+	display: block;
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 2px;
+	left: 0;
+	background-image: url('../../assets/img/check.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.2s;
+}
+
+/* checked mark aspect changes */
+[type='checkbox']:not(:checked) + label:after {
+	opacity: 0;
+	transform: scale(0) rotate(45deg);
+}
+
+[type='checkbox']:checked + label:after {
+	opacity: 1;
+	transform: scale(1) rotate(0);
+}

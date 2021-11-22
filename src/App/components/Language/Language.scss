@@ -1,0 +1,88 @@
+.action {
+	position: relative;
+	ul {
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease 0s;
+		position: absolute;
+		top: 40px;
+		right: 0;
+		background: #fff;
+		min-width: 110px;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0px -1px 14px rgba(0, 0, 0, 0.25);
+		li {
+			display: block;
+			width: 100%;
+			button {
+				padding: 8px 12px;
+				font-size: 15px;
+				line-height: 18px;
+				color: #222222;
+				font-weight: 500;
+			}
+		}
+		&._active {
+			opacity: 1;
+			visibility: visible;
+			top: 30px;
+		}
+	}
+	&__item {
+		background: none;
+		border: none;
+		padding: 8px 15px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		font-size: 15px;
+		line-height: 18px;
+		transition: all 0.3s ease-in 0s;
+		span {
+			margin-right: 5px;
+		}
+		&:hover {
+			background-color: #c4c4c4;
+		}
+	}
+	&__btn {
+		font-size: 15px;
+		line-height: 18px;
+		color: #222222;
+		background: none;
+		border: 0;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-weight: 600;
+		letter-spacing: -0.32px;
+		color: #222;
+		text-transform: uppercase;
+		span {
+			background-image: url('../../assets/icons/lang.svg');
+			background-repeat: no-repeat;
+			background-position: center;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin-right: 5px;
+			text-transform: uppercase;
+		}
+		svg {
+			width: 12px;
+			height: 8px;
+			margin-left: 5.33px;
+			transition: transform 0.3s ease;
+			._active & {
+				transform: rotate(180deg);
+			}
+		}
+	}
+	@media screen and (max-width: 768px) {
+		position: absolute;
+		top: 23px;
+		right: 68px;
+	}
+}

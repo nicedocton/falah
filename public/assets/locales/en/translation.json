@@ -7,10 +7,11 @@
         "reports": "News",
         "contacts": "Contacts"
     },
-	"welcome": {
+	"hero": {
 		"title": "We set standarts in branch",
 		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
-		"button": "Invest"
+		"button": "More Details",
+		"alt": "Falah"
 	},
 	"about": {
 		"title": "About us",
@@ -22,10 +23,56 @@
 	},
 	"mission": {
 		"title": "Our mission",
+		"headText": {
+			"0": "Individual approach to each client.",
+			"1": "Always giving customers choices.",
+			"2": "Offering innovative products and high service."
+		},
 		"text": {
-			"0": "123",
-			"1": "123",
-			"2": "123"
+			"0": "Sales +191% to the 1st half of the year",
+			"1": "Growth of identified clients compared to the 1st half of the year",
+			"2": "+21% monthly growth in the number of identified customers"
 		}
+	},
+	"features": {
+		"title": "Почему мы?",
+		"text": {
+			"0": "Единственная компания в Узбекистане, включающая Исламские принципы финансирования и с предоставлением услуг консалтинга в инвестиционной области",
+			"1": {
+				"0": "Каноническое соответствие всех предлагаемых операций нормам Ислама",
+				"1": "Гибкость решений, индивидуально для каждого клиента",
+				"2": "Применение многообразных схем финансирования и оптимизации бизнеса"
+			},
+			"2": "Соблюдение принципа разделения, как прибылей, так и убытков в случае ведения совместного бизнеса"
+		}
+	},
+	"projects": {
+		"title": "Наши проекты",
+		"safar": {
+			"title": "Safar Taxi",
+			"text": "Safar Taxi - it is a service for online ordering of trips between the regions of Uzbekistan."
+		},
+		"artCrafts": {
+			"title": "Art Crafts",
+			"text": "Printing logos and graphics on the walls."
+		},
+		"tenderzone": {
+			"title": "Tenderzone",
+			"text": "TenderZone - is a convenient and fast tool for sorting lots and analyzing the market."
+		}
+	},
+	"subscribe": {
+		"title": "Invest in Falah",
+		"text": "Leave your contacts and we will contact you as soon as possible",
+		"input": {
+			"name": "Introduce youreself",
+			"email": "Email",
+			"phone": "Phone",
+			"checkbox": "I accept the terms of information transfer",
+			"btn": "Send"
+		}
+	},
+	"media": {
+		"title": "Follow us on social media"
 	}
 }

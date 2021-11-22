@@ -4,12 +4,13 @@
 body {
 	background-color: #fff;
 	color: #000;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ._container {
 	width: 100%;
-	max-width: 1146px;
-	padding: 0 10px;
+	max-width: 1158px;
+	padding: 0 16px;
 	margin: 0 auto;
 }
 
@@ -41,15 +42,20 @@ body {
 .btn {
 	display: block;
 	padding: 18px 32px;
-	background-color: #fff;
+	background-color: #21b560;
 	border: none;
 	position: relative;
-	color: #222;
+	font-weight: bold;
 	font-size: 18px;
 	line-height: 22px;
-	font-weight: 700;
+	color: #ffffff;
 	min-width: 200px;
 	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out 0s;
+	&:hover {
+		background-color: #14a853;
+	}
 }
 .title {
 	font-weight: bold;
@@ -57,10 +63,30 @@ body {
 	line-height: 52px;
 	text-transform: uppercase;
 	color: #222222;
-	margin-bottom: 24px;
 	&._white {
 		color: #ffffff;
 	}
+
+	@media screen and (max-width: 991.88px) {
+		font-size: 40px;
+	}
+
+	@media screen and (max-width: 767.88px) {
+		font-size: 36px;
+	}
+}
+
+.input {
+	display: block;
+	width: 100%;
+	background-color: #ffffff;
+	border: 1.5px solid #3bba80;
+	border-radius: 3px;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+	color: #222222;
+	padding: 18px 23px 16px 23px;
 }
 
 .wrapper {
@@ -70,136 +96,17 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	padding-top: 115px;
+
+	@media screen and (max-width: 991.98px) {
+		padding-top: 95px;
+	}
+
+	@media screen and (max-width: 767.98px) {
+		padding-top: 79px;
+	}
 }
 
 .main {
 	flex: 1 1 auto;
-}
-
-.welcome {
-	background-color: #006933;
-	padding-top: 115px;
-	position: relative;
-	&::before {
-		content: '';
-		display: block;
-		height: 100%;
-		width: 100%;
-		background-image: url('../assets/img/decor.png');
-		background-repeat: repeat;
-		background-position: 0 0;
-		position: absolute;
-		top: 0;
-		right: calc(-50% + (1126px * 0.075));
-		z-index: 1;
-	}
-	&__container {
-		position: relative;
-		display: flex;
-		z-index: 2;
-	}
-	.welcome__row {
-		display: grid;
-		grid-template-columns: 360px 1fr;
-		gap: 120px;
-	}
-	.onMobile {
-		display: none;
-	}
-	.welcome__image {
-		width: calc(50% + (1126px * 0.075));
-		height: 585px;
-		position: absolute;
-		right: 0;
-		top: 115px;
-		z-index: 2;
-	}
-	.welcome__content {
-		padding: 42px 0 97px;
-		color: #fff;
-		min-height: 525px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.welcome__title {
-		font-size: 48px;
-		line-height: 52px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 30px;
-	}
-	.welcome__text {
-		font-size: 18px;
-		line-height: 22px;
-		margin-bottom: 30px;
-		color: rgba(255, 255, 255, 0.77);
-		opacity: 0.89;
-		font-weight: 500;
-		max-width: 250px;
-	}
-}
-
-.about {
-	padding-bottom: 38px;
-	padding-top: 98px;
-	&__content {
-		display: grid;
-		grid-template-columns: 385px 1fr;
-		gap: 95px;
-	}
-	&__text {
-		padding-top: 102px;
-		p {
-			font-weight: 500;
-			font-size: 18px;
-			line-height: 25px;
-			color: #6b7280;
-			margin-bottom: 1em;
-		}
-	}
-	&__image {
-		img {
-			width: 100%;
-		}
-	}
-}
-
-.mission {
-	padding: 80px 0;
-	position: relative;
-	background-image: url('../assets/img/mission.jpg');
-	background-repeat: repeat;
-	background-position: 0 0;
-	&__container {
-		position: relative;
-		z-index: 2;
-	}
-	&__row {
-		display: flex;
-		align-self: start;
-		margin: 0 -12px;
-	}
-	&__column {
-		flex: 1 1 33.3333%;
-		padding: 0 12px;
-	}
-	.item-mission {
-		display: flex;
-		flex-direction: column;
-		align-items: start;
-		flex: 1;
-		&__image {
-			width: 82px;
-			height: 82px;
-			background-color: #006933;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 22px;
-		}
-		&__head {
-
-		}
-	}
 }
