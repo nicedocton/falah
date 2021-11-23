@@ -42,7 +42,10 @@ const SubscribeSection = () => {
 									type='checkbox'
 									id='check'
 								/>
-								<label className='checkbox__label' for='check'>
+								<label
+									className='checkbox__label'
+									htmlFor='check'
+								>
 									{t('subscribe.input.checkbox')}
 								</label>
 							</div>

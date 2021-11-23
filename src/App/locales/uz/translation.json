@@ -1,0 +1,78 @@
+{
+	"mainMenu": {
+        "main": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "partners": "Hamkorlarimiz",
+        "projects": "Proektlar",
+        "reports": "Habarlar",
+        "contacts": "Kontaktlar"
+    },
+	"hero": {
+		"title": "Biz blian investitsiya qiling!",
+		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
+		"button": "Batafsil",
+		"alt": "Falah"
+	},
+	"about": {
+		"title": "Biz haqimizda",
+		"text": {
+			"0": "Biz Islom normalari va Oʻzbekiston Respublikasi qonunchiligi talablariga qatʼiy amal qilgan holda keng turdagi investitsiya va moliyaviy xizmatlarni taqdim etamiz. Bizning eshiklarimiz diniy mansubligidan qat'i nazar, barcha mijozlar uchun ochiq. ",
+			"1": "Bugungi kunda FALAH INVESTORS o'z segmentida rivojlanib, raqobatchilarimiz rahbarlik qiladigan sanoat standartlarini belgilab bermoqda.",
+			"2": "Konservativ moliyaviy siyosat, portfelning doimiy o'sishi, investorlarning bank depozitlaridan yuqori bo'lgan barqaror rentabelligi FALAH INVESTORSning ular ishonadigan va hamkorlik qilishni xohlaydigan ishonchli tashkilot ekanligini ko'rsatadi."
+		}
+	},
+	"mission": {
+		"title": "Bizning missiya",
+		"headText": {
+			"0": "Har bir mijozga individual yondashish.",
+			"1": "Mijozlarga har doim tanlash imkoniyatini berish.",
+			"2": "Innovatsion mahsulotlar va yuqori xizmatni taklif qilish."
+		},
+		"text": {
+			"0": "Sovdada o'sish +191% birinchi yarim yillikga nisbatan",
+			"1": "Birinchi yarim yillikga nisbatan mijozlarning o'sishi",
+			"2": "Mijozlar sonining oylik 21% o'sishi"
+		}
+	},
+	"features": {
+		"title": "Почему мы?",
+		"text": {
+			"0": "Единственная компания в Узбекистане, включающая Исламские принципы финансирования и с предоставлением услуг консалтинга в инвестиционной области",
+			"1": {
+				"0": "Каноническое соответствие всех предлагаемых операций нормам Ислама",
+				"1": "Гибкость решений, индивидуально для каждого клиента",
+				"2": "Применение многообразных схем финансирования и оптимизации бизнеса"
+			},
+			"2": "Соблюдение принципа разделения, как прибылей, так и убытков в случае ведения совместного бизнеса"
+		}
+	},
+	"projects": {
+		"title": "Bizning loyihalarimiz",
+		"safar": {
+			"title": "Safar Taxi",
+			"text": "Safar Taxi - bu Oʻzbekiston hududlari oʻrtasidagi sayohatlarni onlayn bron qilish xizmatidir."
+		},
+		"artCrafts": {
+			"title": "Art Crafts",
+			"text": "Devorlarga logotip va grafiklarni chop etish."
+		},
+		"tenderzone": {
+			"title": "Tenderzone",
+			"text": "TenderZone - lotlarni saralash va bozorni tahlil qilish uchun qulay va tezkor vositadir."
+		}
+	},
+	"subscribe": {
+		"title": "Falahga sarmoya kiriting",
+		"text": "Kontaktlaringizni qoldiring va biz imkon qadar tezroq siz bilan bog'lanamiz",
+		"input": {
+			"name": "O'zingizni tanishtiring",
+			"email": "Elektron pochta",
+			"phone": "Telefon",
+			"checkbox": "Men ma'lumot uzatish shartlarini qabul qilaman",
+			"btn": "Yuborish"
+		}
+	},
+	"media": {
+		"title": "Bizni ijtimoiy tarmoqlarda kuzatib boring"
+	}
+}
