@@ -8,7 +8,12 @@ const SubscribeSection = () => {
 		<div className='subscribe' id='subscribe'>
 			<div className='subscribe__bg'></div>
 			<div className='subscribe__container _container'>
-				<div className='subscribe__content'>
+				<div
+					className='subscribe__content'
+					data-aos='fade-left'
+					data-aos-duration='1500'
+					data-aos-delay='300'
+				>
 					<div className='subscribe__title'>
 						{t('subscribe.title')}
 					</div>

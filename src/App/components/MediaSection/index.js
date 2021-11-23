@@ -13,7 +13,7 @@ const MediaSection = () => {
 						href='https://www.facebook.com/'
 						target='_blank'
 						className='media__link'
-						rel='noreferrer'
+						rel='noopener noreferrer'
 					>
 						<svg
 							width='27'
@@ -29,7 +29,7 @@ const MediaSection = () => {
 						href='https://www.instagram.com/'
 						target='_blank'
 						className='media__link'
-						rel='noreferrer'
+						rel='noopener noreferrer'
 					>
 						<svg
 							width='27'
@@ -45,7 +45,7 @@ const MediaSection = () => {
 						href='https://telegram.org/'
 						target='_blank'
 						className='media__link'
-						rel='noreferrer'
+						rel='noopener noreferrer'
 					>
 						<svg
 							width='32'

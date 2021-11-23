@@ -9,7 +9,11 @@ const HeroSection = () => {
 	return (
 		<div className='hero' id='hero'>
 			<div className='hero__container _container'>
-				<div className='hero__content'>
+				<div
+					className='hero__content'
+					data-aos='slide-right'
+					data-aos-duration='1000'
+				>
 					<div className='hero__title'>{t('hero.title')}</div>
 					<div className='hero__text'>{t('hero.text')}</div>
 					<div className='hero__btn-wrap'>

@@ -14,7 +14,11 @@ const FeaturesSection = () => {
 					{t('features.title')}
 				</div>
 				<div className='features__content'>
-					<div className='features__item fItem _item1'>
+					<div
+						className='features__item fItem _item1'
+						data-aos='fade-left'
+						data-aos-duration='1000'
+					>
 						<div className='fItem__image _image1'>
 							<img src={item1} alt='' />
 						</div>
@@ -23,7 +27,11 @@ const FeaturesSection = () => {
 						</div>
 						<div className='fItem__bg'></div>
 					</div>
-					<div className='features__item fItem _item2'>
+					<div
+						className='features__item fItem _item2'
+						data-aos='fade-right'
+						data-aos-duration='1000'
+					>
 						<div className='fItem__text'>
 							<p>{t('features.text.1.0')}</p>
 							<p>{t('features.text.1.1')}</p>
@@ -34,7 +42,11 @@ const FeaturesSection = () => {
 						</div>
 						<div className='fItem__bg'></div>
 					</div>
-					<div className='features__item fItem _item3'>
+					<div
+						className='features__item fItem _item3'
+						data-aos='fade-left'
+						data-aos-duration='1000'
+					>
 						<div className='fItem__image _image3'>
 							<img src={item3} alt='' />
 						</div>

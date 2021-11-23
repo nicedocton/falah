@@ -33,7 +33,11 @@ const AboutSection = () => {
 				)}
 			</div>
 			<div className='about__container _container'>
-				<div className='about__content'>
+				<div
+					className='about__content'
+					data-aos='slide-up'
+					data-aos-duration='1000'
+				>
 					<div className='about__title title _white'>
 						{t('about.title')}
 					</div>

@@ -12,7 +12,11 @@ const MissionSection = () => {
 			<div className='mission__container _container'>
 				<div className='mission__title title'>{t('mission.title')}</div>
 				<div className='mission__row'>
-					<div className='mission__column'>
+					<div
+						className='mission__column'
+						data-aos='zoom-in-up'
+						data-aos-duration='1000'
+					>
 						<div className='mission__item item-mission'>
 							<div className='item-mission__image'>
 								<span>
@@ -27,7 +31,11 @@ const MissionSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='mission__column'>
+					<div
+						className='mission__column'
+						data-aos='zoom-in-up'
+						data-aos-duration='1400'
+					>
 						<div className='mission__item item-mission'>
 							<div className='item-mission__image'>
 								<span>
@@ -42,7 +50,11 @@ const MissionSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='mission__column'>
+					<div
+						className='mission__column'
+						data-aos='zoom-in-up'
+						data-aos-duration='1800'
+					>
 						<div className='mission__item item-mission'>
 							<div className='item-mission__image'>
 								<span>

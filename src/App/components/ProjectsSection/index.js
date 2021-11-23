@@ -14,7 +14,11 @@ const ProjectsSection = () => {
 					{t('projects.title')}
 				</div>
 				<div className='projects__content'>
-					<div className='projects__item'>
+					<div
+						className='projects__item'
+						data-aos='zoom-in'
+						data-aos-duration='1000'
+					>
 						<div className='project'>
 							<div className='project__image'>
 								<img
@@ -34,7 +38,11 @@ const ProjectsSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='projects__item'>
+					<div
+						className='projects__item'
+						data-aos='zoom-in'
+						data-aos-duration='1000'
+					>
 						<div className='project'>
 							<div className='project__image'>
 								<img
@@ -54,7 +62,11 @@ const ProjectsSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='projects__item'>
+					<div
+						className='projects__item'
+						data-aos='zoom-in'
+						data-aos-duration='1000'
+					>
 						<div className='project'>
 							<div className='project__image'>
 								<img
@@ -74,7 +86,11 @@ const ProjectsSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='projects__item'>
+					<div
+						className='projects__item'
+						data-aos='zoom-in'
+						data-aos-duration='1000'
+					>
 						<div className='project'>
 							<div className='project__image'>
 								<img
@@ -94,7 +110,11 @@ const ProjectsSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className='projects__item'>
+					<div
+						className='projects__item'
+						data-aos='zoom-in'
+						data-aos-duration='1000'
+					>
 						<div className='project'>
 							<div className='project__image'>
 								<img
