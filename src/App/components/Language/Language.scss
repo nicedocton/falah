@@ -75,14 +75,25 @@
 			height: 8px;
 			margin-left: 5.33px;
 			transition: transform 0.3s ease;
+			stroke: #9ba1a7;
 			._active & {
 				transform: rotate(180deg);
+			}
+		}
+		.isOpen & {
+			color: #fff;
+			svg {
+				stroke: #fff;
 			}
 		}
 	}
 	@media screen and (max-width: 768px) {
 		position: absolute;
-		top: 23px;
+		top: 31px;
 		right: 68px;
+		transition: all 0.3s ease 0s;
+		._scroll & {
+			top: 23px;
+		}
 	}
 }

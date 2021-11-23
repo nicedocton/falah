@@ -72,7 +72,6 @@ const Language = () => {
 				>
 					<path
 						d='M10.6667 1.96704L6.00004 6.63371L1.33337 1.96704'
-						stroke='#9BA1A7'
 						strokeWidth='2'
 						strokeLinecap='round'
 						strokeLinejoin='round'
