@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/falah/static/css/main.d9e9868b.chunk.css",
-    "main.js": "/falah/static/js/main.e81a3f40.chunk.js",
-    "main.js.map": "/falah/static/js/main.e81a3f40.chunk.js.map",
+    "main.css": "/falah/static/css/main.aac4b835.chunk.css",
+    "main.js": "/falah/static/js/main.ff88a103.chunk.js",
+    "main.js.map": "/falah/static/js/main.ff88a103.chunk.js.map",
     "runtime-main.js": "/falah/static/js/runtime-main.af9ad53e.js",
     "runtime-main.js.map": "/falah/static/js/runtime-main.af9ad53e.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/falah/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e6560818.chunk.js.map": "/falah/static/js/2.e6560818.chunk.js.map",
     "index.html": "/falah/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/falah/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.d9e9868b.chunk.css.map": "/falah/static/css/main.d9e9868b.chunk.css.map",
+    "static/css/main.aac4b835.chunk.css.map": "/falah/static/css/main.aac4b835.chunk.css.map",
     "static/js/2.e6560818.chunk.js.LICENSE.txt": "/falah/static/js/2.e6560818.chunk.js.LICENSE.txt",
     "static/media/AboutSection.scss": "/falah/static/media/about.8ddb76d3.jpg",
     "static/media/SubscribeSection.scss": "/falah/static/media/subscribe2.8c375575.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.af9ad53e.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.e6560818.chunk.js",
-    "static/css/main.d9e9868b.chunk.css",
-    "static/js/main.e81a3f40.chunk.js"
+    "static/css/main.aac4b835.chunk.css",
+    "static/js/main.ff88a103.chunk.js"
   ]
 }
