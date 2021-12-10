@@ -1,8 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import test from '../../assets/img/test.png';
-import test2 from '../../assets/img/test2.png';
-import tenderzone from '../../assets/img/tenderzone.png';
+import safar from '../../assets/img/safar.jpg';
+import artcrafts from '../../assets/img/artcrafts.jpg';
+import googolplex from '../../assets/img/googolplex.jpg';
+import tenderzone from '../../assets/img/tenderzone.jpg';
 import './ProjectsSection.scss';
 
 const ProjectsSection = () => {
@@ -22,7 +23,7 @@ const ProjectsSection = () => {
 						<div className='project'>
 							<div className='project__image'>
 								<img
-									src={test}
+									src={safar}
 									alt={t('projects.safar.title')}
 								/>
 							</div>
@@ -46,31 +47,7 @@ const ProjectsSection = () => {
 						<div className='project'>
 							<div className='project__image'>
 								<img
-									src={tenderzone}
-									alt={t('projects.tenderzone.title')}
-								/>
-							</div>
-							<div className='project__info'>
-								<div>
-									<div className='project__head'>
-										{t('projects.tenderzone.title')}
-									</div>
-									<div className='project__text'>
-										{t('projects.tenderzone.text')}
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div
-						className='projects__item'
-						data-aos='zoom-in'
-						data-aos-duration='1000'
-					>
-						<div className='project'>
-							<div className='project__image'>
-								<img
-									src={test2}
+									src={artcrafts}
 									alt={t('projects.artCrafts.title')}
 								/>
 							</div>
@@ -94,17 +71,17 @@ const ProjectsSection = () => {
 						<div className='project'>
 							<div className='project__image'>
 								<img
-									src={tenderzone}
-									alt={t('projects.tenderzone.title')}
+									src={googolplex}
+									alt={t('projects.googolplex.title')}
 								/>
 							</div>
 							<div className='project__info'>
 								<div>
 									<div className='project__head'>
-										{t('projects.tenderzone.title')}
+										{t('projects.googolplex.title')}
 									</div>
 									<div className='project__text'>
-										{t('projects.tenderzone.text')}
+										{t('projects.googolplex.text')}
 									</div>
 								</div>
 							</div>
@@ -118,17 +95,17 @@ const ProjectsSection = () => {
 						<div className='project'>
 							<div className='project__image'>
 								<img
-									src={test}
-									alt={t('projects.safar.title')}
+									src={tenderzone}
+									alt={t('projects.tenderzone.title')}
 								/>
 							</div>
 							<div className='project__info'>
 								<div>
 									<div className='project__head'>
-										{t('projects.safar.title')}
+										{t('projects.tenderzone.title')}
 									</div>
 									<div className='project__text'>
-										{t('projects.safar.text')}
+										{t('projects.tenderzone.text')}
 									</div>
 								</div>
 							</div>

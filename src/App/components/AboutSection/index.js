@@ -3,26 +3,28 @@ import { useTranslation } from 'react-i18next';
 import Video from '../../assets/video/video.mp4';
 import './AboutSection.scss';
 
+function useWindowSize() {
+	const [onMobile, setOnMobile] = useState(true);
+	useEffect(() => {
+		const handleResize = () => {
+			if (window.innerWidth >= 767) {
+				setOnMobile(true);
+			} else {
+				setOnMobile(false);
+			}
+		};
+		window.addEventListener('resize', handleResize);
+	}, []);
+	return onMobile;
+}
+
 const AboutSection = () => {
 	const { t } = useTranslation();
-	const [onMobile, setOnMobile] = useState(false);
-
-	const changeMobile = () => {
-		if (window.innerWidth >= 767) {
-			setOnMobile(true);
-		} else {
-			setOnMobile(false);
-		}
-	};
-
-	useEffect(() => {
-		window.addEventListener('resize', changeMobile);
-	}, []);
-
+	const onMobile = useWindowSize();
 	return (
 		<div className='about' id='about'>
 			<div className='about__bg'>
-				{onMobile === false && (
+				{onMobile === true && (
 					<video
 						autoPlay
 						loop
@@ -38,7 +40,7 @@ const AboutSection = () => {
 					data-aos='slide-up'
 					data-aos-duration='1000'
 				>
-					<div className='about__title title _white'>
+					<div className='about__title title _green'>
 						{t('about.title')}
 					</div>
 					<div className='about__text'>

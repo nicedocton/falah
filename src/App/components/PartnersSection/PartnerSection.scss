@@ -1,0 +1,36 @@
+.partners {
+	position: relative;
+	padding: 80px 0;
+	background-color: #f7f8f9;
+	&__container {
+		width: 100%;
+	}
+	&__title {
+		width: 100%;
+		max-width: 1158px;
+		padding: 0 16px;
+		margin: 0 auto;
+		text-align: left;
+		margin-bottom: 50px;
+	}
+}
+
+.slide {
+	margin: 0 40px;
+	&__item {
+		display: flex;
+		align-items: center;
+		height: 50px;
+		img {
+			width: auto;
+			max-height: 50px;
+			transition: all 0.3 ease;
+			filter: grayscale(1);
+		}
+		&:hover {
+			img {
+				filter: none;
+			}
+		}
+	}
+}

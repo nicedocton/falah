@@ -15,10 +15,10 @@ const HeroSection = () => {
 					data-aos-duration='1000'
 				>
 					<div className='hero__title'>{t('hero.title')}</div>
-					<div className='hero__text'>{t('hero.text')}</div>
+					{/* <div className='hero__text'>{t('hero.text')}</div> */}
 					<div className='hero__btn-wrap'>
 						<Link
-							to='about'
+							to='subscribe'
 							smooth={true}
 							duration={500}
 							spy={true}
@@ -27,6 +27,17 @@ const HeroSection = () => {
 							className='hero__btn btn'
 						>
 							{t('hero.button')}
+						</Link>
+						<Link
+							to='about'
+							smooth={true}
+							duration={500}
+							spy={true}
+							exact='true'
+							offset={-80}
+							className='hero__btn btn _light'
+						>
+							{t('hero.button2')}
 						</Link>
 					</div>
 				</div>

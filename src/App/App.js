@@ -5,9 +5,9 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import MissionSection from './components/MissionSection';
 import FeaturesSection from './components/FeaturesSection';
+import PartnersSection from './components/PartnersSection';
 import ProjectsSection from './components/ProjectsSection';
 import SubscribeSection from './components/SubscribeSection';
-import MediaSection from './components/MediaSection';
 import FooterSection from './components/FooterSection';
 import AOS from 'aos';
 import './scss/App.scss';
@@ -34,9 +34,9 @@ function App() {
 				<AboutSection />
 				<MissionSection />
 				<FeaturesSection />
+				<PartnersSection />
 				<ProjectsSection />
 				<SubscribeSection />
-				<MediaSection />
 			</main>
 			<FooterSection />
 		</div>

@@ -28,31 +28,18 @@ const SubscribeSection = () => {
 								/>
 							</div>
 							<div className='subscribe__row'>
-								<div className='subscribe__col'>
-									<input
-										type='text'
-										className='input'
-										placeholder={t('subscribe.input.email')}
-									/>
-									<input
-										type='text'
-										className='input'
-										placeholder={t('subscribe.input.phone')}
-									/>
-								</div>
+								<input
+									type='text'
+									className='input'
+									placeholder={t('subscribe.input.phone')}
+								/>
 							</div>
 							<div className='subscribe__row'>
-								<input
-									className='checkbox'
-									type='checkbox'
-									id='check'
-								/>
-								<label
-									className='checkbox__label'
-									htmlFor='check'
-								>
-									{t('subscribe.input.checkbox')}
-								</label>
+								<textarea
+									rows='5'
+									className='input'
+									placeholder={t('subscribe.input.textarea')}
+								></textarea>
 							</div>
 							<div className='subscribe__row'>
 								<button className='subscribe__btn btn'>

@@ -38,6 +38,14 @@
 	}
 	&__btn-wrap {
 		display: flex;
+		flex-direction: column;
+		.btn {
+			width: 100%;
+			text-align: left;
+			& + .btn {
+				margin-top: 10px;
+			}
+		}
 	}
 	@media screen and (max-width: 991.88px) {
 		&__title {
@@ -60,6 +68,7 @@
 		}
 		&__title {
 			font-size: 36px;
+			text-align: center;
 		}
 		&__text {
 			line-height: 19.5px;
@@ -68,6 +77,9 @@
 			padding-left: 0;
 			padding-top: 13px;
 			padding-bottom: 16px;
+		}
+		&__btn-wrap .btn {
+			text-align: center;
 		}
 	}
 	@media screen and (max-width: 480.88px) {

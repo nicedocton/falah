@@ -8,14 +8,18 @@
 	transition: 0.3s all ease;
 	&__container {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
+		padding: 0 24px;
+		position: relative;
 	}
 	&__logo {
 		width: 183px;
 		height: 47px;
 		cursor: pointer;
 		transition: 0.3s all ease;
+		position: absolute;
+		left: 24px;
 		svg {
 			transition: 0.3s all ease;
 			path {
@@ -35,10 +39,9 @@
 			}
 		}
 		._scroll & {
-			width: 141px;
+			width: 36px;
 			height: 36px;
 			svg {
-				max-width: 100%;
 				width: 141px;
 				height: 36px;
 				transition: 0.3s all ease;
@@ -72,6 +75,12 @@
 			}
 		}
 	}
+	&__action {
+		display: flex;
+		margin: 0 0 0 24px;
+		position: absolute;
+		right: 24px;
+	}
 
 	@media screen and (max-width: 991.88px) {
 		padding: 26px 0 22px;
@@ -79,19 +88,97 @@
 
 	@media screen and (max-width: 767.88px) {
 		padding: 16px 0 16px;
+
+		&__container {
+			justify-content: space-between;
+			padding: 0 16px;
+		}
+		&__logo {
+			position: static;
+			left: auto;
+		}
+		&__action {
+			position: static;
+			right: auto;
+			position: absolute;
+			right: 68px;
+		}
+	}
+
+	@media screen and (max-width: 480.88px) {
+		&__logo {
+			width: 45px;
+			height: 47px;
+			overflow: hidden;
+		}
+	}
+}
+
+.info {
+	display: flex;
+	&__adress {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		a {
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 15px;
+			color: #73787d;
+			transition: all 0.3 ease;
+			&:hover {
+				color: #06801f;
+			}
+		}
+	}
+	&__socials {
+		display: flex;
+		margin-left: 24px;
+		align-items: center;
+		a {
+			width: 30px;
+			height: 30px;
+			background-color: rgba(33, 181, 96, 0.2);
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			& + a {
+				margin-left: 8.57px;
+			}
+			svg {
+				fill: #21b560;
+				max-width: 15px;
+				max-height: 13px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199.88px) {
+		&__socials {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 1023.88px) {
+		&__adress {
+			display: none;
+		}
 	}
 }
 
 .mobileIcon {
 	display: none;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 767.88px) {
 		display: block;
 		position: relative;
 		width: 32px;
 		height: 25px;
 		cursor: pointer;
 		z-index: 5;
+		position: absolute;
+		right: 16px;
 		span {
 			display: block;
 			transition: all 0.3s ease 0s;
@@ -99,7 +186,7 @@
 			left: 0;
 			position: absolute;
 			width: 100%;
-			height: 2px;
+			height: 3px;
 			background-color: #222222;
 			&:first-child {
 				top: 0;
@@ -149,6 +236,12 @@
 			&:hover {
 				color: #06801f;
 			}
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		li a {
+			font-size: 12px;
+			line-height: 16px;
 		}
 	}
 	@media screen and (max-width: 768px) {

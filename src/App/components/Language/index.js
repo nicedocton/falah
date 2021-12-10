@@ -4,6 +4,11 @@ import './Language.scss';
 
 const languages = [
 	{
+		code: 'en',
+		name: 'English',
+		country_code: 'gb',
+	},
+	{
 		code: 'uz',
 		name: "O'zbekcha",
 		country_code: 'uz',
@@ -12,11 +17,6 @@ const languages = [
 		code: 'ru',
 		name: 'Русский',
 		country_code: 'ru',
-	},
-	{
-		code: 'en',
-		name: 'English',
-		country_code: 'gb',
 	},
 ];
 
@@ -55,23 +55,23 @@ const Language = () => {
 
 	return (
 		<div
-			className={`action ${isComponentVisible ? '_active' : ''}`}
+			className={`language ${isComponentVisible ? '_active' : ''}`}
 			ref={ref}
 		>
 			<button
-				className='action__btn'
+				className='language__btn'
 				onClick={() => setIsComponentVisible(!isComponentVisible)}
 			>
 				{i18next.language}
 				<svg
-					width='12'
-					height='8'
-					viewBox='0 0 12 8'
+					width='16'
+					height='16'
+					viewBox='0 0 16 16'
 					fill='none'
 					xmlns='http://www.w3.org/2000/svg'
 				>
 					<path
-						d='M10.6667 1.96704L6.00004 6.63371L1.33337 1.96704'
+						d='M12.6666 6L7.99998 10.6667L3.33331 6'
 						strokeWidth='2'
 						strokeLinecap='round'
 						strokeLinejoin='round'
@@ -83,7 +83,7 @@ const Language = () => {
 					return (
 						<li key={country_code}>
 							<button
-								className='action__item'
+								className='language__item'
 								onClick={() => {
 									i18next.changeLanguage(code);
 									setIsComponentVisible(false);

@@ -15,11 +15,11 @@ const resources = {
 	en: {
 		translation: translationEN,
 	},
-	ru: {
-		translation: translationRU,
-	},
 	uz: {
 		translation: translationUZ,
+	},
+	ru: {
+		translation: translationRU,
 	},
 };
 
@@ -28,7 +28,7 @@ i18n.use(initReactI18next)
 	.use(HttpApi)
 	.init({
 		resources,
-		supportedLngs: ['uz', 'ru', 'en'],
+		supportedLngs: ['en', 'uz', 'ru'],
 		fallbackLng: 'en',
 		detection: {
 			order: ['subdomain', 'path', 'cookie', 'htmlTag', 'localStorage'],

@@ -34,7 +34,7 @@
 			margin-bottom: 24px;
 			@media screen and (max-width: 767.88px) {
 				&:last-child {
-					margin-bottom: 100px;
+					margin-bottom: 0px;
 				}
 			}
 		}
@@ -56,6 +56,52 @@
 		&:hover {
 			color: #01bf71;
 			transition: 0.2s ease-in-out;
+		}
+	}
+	&__info {
+		margin-top: 60px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		&-adress {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 24px;
+			a {
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 15px;
+				text-align: right;
+				color: #ffffff;
+				transition: all 0.3s ease-in-out;
+				&:hover {
+					color: #01bf71;
+				}
+			}
+		}
+		&-socials {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&-link {
+			width: 42px;
+			height: 42px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: rgba(255, 255, 255, 0.2);
+			transition: all 0.3 ease-in-out 0s;
+			margin: 0 6px;
+			svg {
+				fill: #ffffff;
+				max-width: 21px;
+				max-height: 18.5px;
+			}
 		}
 	}
 	@media screen and (max-width: 767.88px) {

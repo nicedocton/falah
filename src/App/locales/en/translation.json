@@ -1,16 +1,15 @@
 {
 	"mainMenu": {
-        "main": "Homepage",
         "about": "About us",
         "partners": "Partners",
         "projects": "Projects",
-        "reports": "News",
         "contacts": "Contacts"
     },
 	"hero": {
-		"title": "We set standarts in branch",
+		"title": "Invest with us!",
 		"text": "Egestas tellus et arcu porta scelerisque. Donec ultrices erat sed lobortis dapibus. Praesent rhoncus erat quam.",
-		"button": "More Details",
+		"button": "Invest",
+		"button2": "More Details",
 		"alt": "Falah"
 	},
 	"about": {
@@ -25,54 +24,65 @@
 		"title": "Our mission",
 		"headText": {
 			"0": "Individual approach to each client.",
-			"1": "Always giving customers choices.",
-			"2": "Offering innovative products and high service."
+			"1": "Offering innovative products and high service.",
+			"2": "Always giving customers a choice."
 		},
 		"text": {
-			"0": "Sales +191% to the 1st half of the year",
-			"1": "Growth of identified clients compared to the 1st half of the year",
-			"2": "+21% monthly growth in the number of identified customers"
+			"0": "Ensuring interaction with clients based on opportunities, identifying individual development paths",
+			"1": "Offering alternative solutions is one of the success factors",
+			"2": "Market research, innovative project - business design, the formation of system integration of the entire innovation cycle up to profit"
 		}
 	},
 	"features": {
-		"title": "Почему мы?",
+		"title": "Why us?!",
 		"text": {
-			"0": "Единственная компания в Узбекистане, включающая Исламские принципы финансирования и с предоставлением услуг консалтинга в инвестиционной области",
-			"1": {
-				"0": "Каноническое соответствие всех предлагаемых операций нормам Ислама",
-				"1": "Гибкость решений, индивидуально для каждого клиента",
-				"2": "Применение многообразных схем финансирования и оптимизации бизнеса"
-			},
-			"2": "Соблюдение принципа разделения, как прибылей, так и убытков в случае ведения совместного бизнеса"
+			"0": "Company in Uzbekistan that includes Islamic principles of financing and providing consulting services in the investment field.",
+			"1": "Provide a safe way to store funds and settlements with clients, as we provide a thorough approach to each stage of concluding contracts and preparing all the necessary documentation.",
+			"2": "Offer to become not only Clients, but also partners in business."
 		}
 	},
+	"partners": {
+		"title": "Partners"
+	},
 	"projects": {
-		"title": "Наши проекты",
+		"title": "Our projects",
 		"safar": {
 			"title": "Safar Taxi",
-			"text": "Safar Taxi - it is a service for online ordering of trips between the regions of Uzbekistan."
+			"text": "A program that provides customers with a convenient and fast solution for intercity and interregional taxi services in Uzbekistan."
 		},
 		"artCrafts": {
 			"title": "Art Crafts",
-			"text": "Printing logos and graphics on the walls."
+			"text": "A service that prints images and graphics in bright, durable and high quality colors directly from the machine onto plaster, wallpaper, wood, clinker, stone, plastic, glass, concrete, many metals and tiles, and other similar materials."
+		},
+		"googolplex": {
+			"title": "Googolplex",
+			"text": "A service to optimize processes and allocate resources through the use of effective IT solutions, IT infrastructure and strategy."
 		},
 		"tenderzone": {
 			"title": "Tenderzone",
-			"text": "TenderZone - is a convenient and fast tool for sorting lots and analyzing the market."
+			"text": "Convenient and fast tool for sorting lots and market analysis."
 		}
 	},
 	"subscribe": {
-		"title": "Invest in Falah",
-		"text": "Leave your contacts and we will contact you as soon as possible",
+		"title": "Invest in partnership with FALAH INVESTORS!",
+		"text": "For recommendations and requests:",
 		"input": {
-			"name": "Introduce youreself",
+			"name": "Name",
 			"email": "Email",
-			"phone": "Phone",
-			"checkbox": "I accept the terms of information transfer",
+			"phone": "Phone number",
+			"textarea": "Comments",
 			"btn": "Send"
 		}
 	},
-	"media": {
-		"title": "Follow us on social media"
+	"footer": {
+		"title": "Have questions? Contact us!",
+		"info": {
+			"phone": "Phone",
+			"address": "Address",
+			"email": "Email"
+		},
+		"copy": {
+			"text": "All rights reserved."
+		}
 	}
 }

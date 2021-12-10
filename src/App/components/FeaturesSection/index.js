@@ -33,9 +33,7 @@ const FeaturesSection = () => {
 						data-aos-duration='1000'
 					>
 						<div className='fItem__text'>
-							<p>{t('features.text.1.0')}</p>
-							<p>{t('features.text.1.1')}</p>
-							<p>{t('features.text.1.2')}</p>
+							<p>{t('features.text.1')}</p>
 						</div>
 						<div className='fItem__image _image2'>
 							<img src={item2} alt='' />

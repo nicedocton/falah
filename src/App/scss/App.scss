@@ -19,26 +19,6 @@ body {
 	width: 24px;
 	height: 16px;
 }
-
-.icon-gb {
-	background-image: url('../assets/icons/gb-flag.jpg');
-	background-size: 24px 16px;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-.icon-ru {
-	background-image: url('../assets/icons/ru-flag.jpg');
-	background-size: 24px 16px;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-.icon-uz {
-	background-image: url('../assets/icons/uz-flag.jpg');
-	background-size: 24px 16px;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-
 .btn {
 	display: block;
 	padding: 18px 32px;
@@ -54,7 +34,14 @@ body {
 	cursor: pointer;
 	transition: all 0.3s ease-in-out 0s;
 	&:hover {
-		background-color: #14a853;
+		background-color: #0a9e49;
+	}
+	&._light {
+		background-color: rgba(33, 181, 96, 0.3);
+		color: #21b560;
+		&:hover {
+			background-color: rgba(33, 181, 96, 0.15);
+		}
 	}
 }
 .title {
@@ -66,6 +53,9 @@ body {
 	&._white {
 		color: #ffffff;
 	}
+	&._green {
+		color: #21b560;
+	}
 
 	@media screen and (max-width: 991.88px) {
 		font-size: 40px;
@@ -73,6 +63,7 @@ body {
 
 	@media screen and (max-width: 767.88px) {
 		font-size: 36px;
+		text-align: center;
 	}
 }
 
