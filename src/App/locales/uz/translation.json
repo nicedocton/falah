@@ -65,7 +65,7 @@
 	},
 	"subscribe": {
 		"title": "FALAH INVESTORS bilan hamkorlikda investitsiya kiriting!",
-		"text": "Talab va takliflaringiz bo'lsa, ma'lumotlaringizni kiriting",
+		"text": "Talab va takliflaringiz uchun",
 		"input": {
 			"name": "Ismingiz",
 			"email": "Elektron pochta",
@@ -75,7 +75,7 @@
 		}
 	},
 	"footer": {
-		"title": "Biz bilan Bog'lanish uchun",
+		"title": "Biz bilan bog'laning",
 		"info": {
 			"phone": "Telefon:",
 			"address": "Manzil:",
