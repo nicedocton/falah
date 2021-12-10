@@ -24,15 +24,14 @@ const FooterSection = () => {
 							{t('footer.info.phone')}
 						</div>
 						<a href='tel:+998935330044'>+998 93 533 00 44</a>
+						<br />
+						<a href='tel:+998903210044'>+998 90 321 00 44</a>
 					</div>
 					<div className='footer__info-col'>
 						<div className='footer__info-head'>
 							{t('footer.info.address')}
 						</div>
-						<address>
-							Toshkent shahri, Yakkasaroy tumani, Abdulla Qahhor
-							7-tor ko'cha, 9/47
-						</address>
+						<address>{t('footer.info.addressText')}</address>
 					</div>
 					<div className='footer__info-col'>
 						<div className='footer__info-head'>
@@ -246,7 +245,7 @@ const FooterSection = () => {
 				</div>
 				<div className='footer__copy'>
 					<p>
-						© {new Date().getFullYear()}. Falah Invertors.{' '}
+						© {new Date().getFullYear()}. Falah Investors.{' '}
 						{t('footer.copy.text')}
 					</p>
 					<p>

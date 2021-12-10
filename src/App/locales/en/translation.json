@@ -23,9 +23,9 @@
 	"mission": {
 		"title": "Our mission",
 		"headText": {
-			"0": "Individual approach to each client.",
-			"1": "Offering innovative products and high service.",
-			"2": "Always giving customers a choice."
+			"0": "Individual approach to each client",
+			"1": "Offering innovative products and high service",
+			"2": "Always giving customers a choice"
 		},
 		"text": {
 			"0": "Ensuring interaction with clients based on opportunities, identifying individual development paths",
@@ -36,9 +36,9 @@
 	"features": {
 		"title": "Why us?!",
 		"text": {
-			"0": "Company in Uzbekistan that includes Islamic principles of financing and providing consulting services in the investment field.",
-			"1": "Provide a safe way to store funds and settlements with clients, as we provide a thorough approach to each stage of concluding contracts and preparing all the necessary documentation.",
-			"2": "Offer to become not only Clients, but also partners in business."
+			"0": "Company in Uzbekistan that includes Islamic principles of financing and providing consulting services in the investment field",
+			"1": "Provide a safe way to store funds and settlements with clients, as we provide a thorough approach to each stage of concluding contracts and preparing all the necessary documentation",
+			"2": "Offer to become not only Clients, but also partners in business"
 		}
 	},
 	"partners": {
@@ -75,11 +75,12 @@
 		}
 	},
 	"footer": {
-		"title": "Have questions? Contact us!",
+		"title": "Contact us",
 		"info": {
-			"phone": "Phone",
-			"address": "Address",
-			"email": "Email"
+			"phone": "Phone:",
+			"address": "Address:",
+			"email": "E-mail:",
+			"addressText": "7-9/47 A.Qahhar, Yakkasaray, Tashkent"
 		},
 		"copy": {
 			"text": "All rights reserved."

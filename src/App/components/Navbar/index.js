@@ -201,8 +201,8 @@ const Navbar = ({ isOpen, toggle }) => {
 				<div className='navbar__action'>
 					<div className='navbar__info info'>
 						<div className='info__adress'>
-							<a href='tel:+998935294862'>+998 93 529 48 62</a>
-							<a href='https://t.me/'>Telegram: @falahuz</a>
+							<a href='tel:+998935330044'>+998 93 533 00 44</a>
+							<a href='tel:+998903210044'>+998 90 321 00 44</a>
 						</div>
 						<div className='info__socials'>
 							<a

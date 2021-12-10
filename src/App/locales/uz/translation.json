@@ -15,7 +15,7 @@
 	"about": {
 		"title": "Biz haqimizda",
 		"text": {
-			"0": "Biz Islom normalari va Oʻzbekiston Respublikasi qonunchiligi talablariga qatʼiy amal qilgan holda keng turdagi investitsiya va moliyaviy xizmatlarni taqdim etamiz. Bizning eshiklarimiz diniy mansubligidan qat'i nazar, barcha mijozlar uchun ochiq.",
+			"0": "Biz Islom normalari va Oʻzbekiston Respublikasi qonunchiligi talablariga qatʼiy amal qilgan holda keng turdagi investitsiya va moliyaviy xizmatlarni taqdim etamiz. Bizning eshiklarimiz barcha mijozlar uchun ochiq.",
 			"1": "Bugungi kunda FALAH INVESTORS o'z segmentida rivojlanib, raqobatchilarimiz rahbarlik qiladigan sanoat standartlarini belgilab bermoqda.",
 			"2": "Konservativ moliyaviy siyosat, portfelning doimiy o'sishi, investorlarning bank depozitlaridan yuqori bo'lgan barqaror rentabelligi FALAH INVESTORSning ular ishonadigan va hamkorlik qilishni xohlaydigan ishonchli tashkilot ekanligini ko'rsatadi."
 		}
@@ -23,9 +23,9 @@
 	"mission": {
 		"title": "Bizning missiya",
 		"headText": {
-			"0": "Har bir mijozga individual yondashish.",
-			"1": "Mijozlarga har doim tanlash imkoniyatini berish. ",
-			"2": "Innovatsion mahsulotlar va yuqori xizmatni taklif qilish."
+			"0": "Har bir mijozga individual yondashish",
+			"1": "Mijozlarga har doim tanlash imkoniyatini berish",
+			"2": "Innovatsion mahsulotlar va yuqori xizmatni taklif qilish"
 		},
 		"text": {
 			"0": "Rivojlanishning individual usullarini aniqlagan holda, mijozning imkoniyatlari asosida faolligini ta'minlash",
@@ -36,16 +36,16 @@
 	"features": {
 		"title": "Nega aynan biz?!",
 		"text": {
-			"0": "O'zbekistonda Islomiy moliyalashtirish va investitsiya sohasida maslahat xizmatlarini ko'rsatish tamoyillarini o'z ichiga olgan  kompaniya.",
-			"1": "Biz mijozlarimiz bilan pul mablag'larini saqlash va hisob-kitob qilishning xavfsiz usulini taqdim etamiz, chunki shartnomalar tuzish va barcha zarur hujjatlarni tayyorlashning har bir bosqichiga puxta yondashish ta’minlanadi.",
-			"2": "Biz nafaqat Mijozlar, balki biznesdagi hamkorlar bo'lishni ham taklif qilamiz."
+			"0": "O'zbekistonda Islomiy moliyalashtirish va investitsiya sohasida maslahat xizmatlarini ko'rsatish tamoyillarini o'z ichiga olgan  kompaniya",
+			"1": "Biz mijozlarimiz bilan pul mablag'larini saqlash va hisob-kitob qilishning xavfsiz usulini taqdim etamiz, chunki shartnomalar tuzish va barcha zarur hujjatlarni tayyorlashning har bir bosqichiga puxta yondashish ta’minlanadi",
+			"2": "Biz nafaqat mijozlar, balki biznesdagi hamkorlar bo'lishni ham taklif qilamiz"
 		}
 	},
 	"partners": {
 		"title": "Hamkorlarimiz"
 	},
 	"projects": {
-		"title": "Bizning loyihalarimiz",
+		"title": "Loyihalarimiz",
 		"safar": {
 			"title": "Safar Taxi",
 			"text": "Mijozlarning O'zbekiston shahar va viloyatlari aro taksi xizmatining qulay va tez yechimini beruvchi dastur."
@@ -65,7 +65,7 @@
 	},
 	"subscribe": {
 		"title": "FALAH INVESTORS bilan hamkorlikda investitsiya kiriting!",
-		"text": "Kontaktlaringizni qoldiring va biz imkon qadar tezroq siz bilan bog'lanamiz",
+		"text": "Talab va takliflaringiz bo'lsa, ma'lumotlaringizni kiriting",
 		"input": {
 			"name": "Ismingiz",
 			"email": "Elektron pochta",
@@ -75,11 +75,12 @@
 		}
 	},
 	"footer": {
-		"title": "Savollar bormi? Biz bilan Bo’glaning!",
+		"title": "Biz bilan Bog'lanish uchun",
 		"info": {
-			"phone": "Telefon",
-			"address": "Manzil",
-			"email": "Pochta"
+			"phone": "Telefon:",
+			"address": "Manzil:",
+			"email": "Elektron manzil:",
+			"addressText": "Toshkent shahar, Yakkasaroy tumani, Abdulla Qahhor 7-tor ko'chasi, 9/47"
 		},
 		"copy": {
 			"text": "Barcha huquqlar himoyalangan."
