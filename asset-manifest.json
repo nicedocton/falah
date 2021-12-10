@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/falah/static/css/main.ba13a649.chunk.css",
-    "main.js": "/falah/static/js/main.d2697049.chunk.js",
-    "main.js.map": "/falah/static/js/main.d2697049.chunk.js.map",
+    "main.js": "/falah/static/js/main.2530b5cd.chunk.js",
+    "main.js.map": "/falah/static/js/main.2530b5cd.chunk.js.map",
     "runtime-main.js": "/falah/static/js/runtime-main.af9ad53e.js",
     "runtime-main.js.map": "/falah/static/js/runtime-main.af9ad53e.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/falah/static/css/2.7fc9bc2b.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.f9c208a5.chunk.js",
     "static/css/main.ba13a649.chunk.css",
-    "static/js/main.d2697049.chunk.js"
+    "static/js/main.2530b5cd.chunk.js"
   ]
 }
