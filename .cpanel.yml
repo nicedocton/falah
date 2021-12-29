@@ -1,0 +1,5 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/futboluz/falah.uz/
+        - /bin/cp -R * $DEPLOYPATH
