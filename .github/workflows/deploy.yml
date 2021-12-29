@@ -13,7 +13,7 @@ jobs:
             # Setup key
             - run: set -eu
             - run: mkdir "$HOME/.ssh"
-            - run: echo "${{ secrets.key }}" > "$HOME/.ssh/falah_key"
-            - run: chmod 600 "$HOME/.ssh/falah_key"
+            - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
+            - run: chmod 600 "$HOME/.ssh/key"
             # Deploy
-            - run: cd build && rsync -e "ssh -p 20022 -i $HOME/.ssh/falah_key -o StrictHostKeyChecking=no" --archive --compress --delete . falah.uz:/home/futboluz/falah.uz
+            - run: cd build && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . falah.uz:/home/futboluz/falah.uz
