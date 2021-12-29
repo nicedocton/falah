@@ -1,0 +1,19 @@
+name: Deploy
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            # Setup key
+            - run: set -eu
+            - run: mkdir "$HOME/.ssh"
+            - run: echo "${{ secrets.key }}" > "$HOME/.ssh/falah_key"
+            - run: chmod 600 "$HOME/.ssh/falah_key"
+            # Deploy
+            - run: cd build && rsync -e "ssh -p 20022 -i $HOME/.ssh/falah_key -o StrictHostKeyChecking=no" --archive --compress --delete . falah.uz:/home/futboluz/falah.uz
